@@ -6,7 +6,27 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="page">
+    <section class="container container-title">
+      <h2 id="password" class="title">PASSWORD</h2>
+    </section>
+    <p id="length">LENGTH: 4</p>
+    <section class="container container-slider">
+      <p>4</p>
+      <input
+        id="slider"
+        class="slider-bar"
+        type="range"
+        min="4"
+        max="32"
+        value="4"
+        step="1"
+      />
+      <p>32</p>
+    </section>
+    <div id="pass-button" class="button">
+      <a href="#">Generate password</a>
+    </div>
     <script src="/js/scripts.js"></script>
   </body>
 </html>
